@@ -1,0 +1,66 @@
+* {
+  background-color: lightblue;
+}
+
+li {
+  display: inline-block;
+}
+
+:root {
+  font-size: 12px;
+}
+
+* {
+  margin: 1rem;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", "Geneva", Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+form {
+  border: 1px solid black;
+  width: 20%;
+}
+
+form > input {
+  display: inline-block;
+  width: 90%;
+}
+
+form > input[type="submit"] {
+  width: 10%;
+  -ms-flex-item-align: right;
+      -ms-grid-row-align: right;
+      align-self: right;
+  background-color: #129c12;
+}
+
+.nav-btn {
+  border-width: 2px;
+}
+
+footer {
+  text-align: center;
+  color: brown;
+}
+/*# sourceMappingURL=style.css.map */
